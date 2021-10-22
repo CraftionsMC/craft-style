@@ -1,19 +1,25 @@
 {
   "name": "@craftions/craft-style",
   "version": "1.0.0",
-  "description": "The Web Design Framework by craftions.net",
-  "main": "index.js",
+  "description": "The Web Design Framework by Craftions",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass:build": "sass src/scss/craftstyle.scss:build/css/craftstyle.min.css --style compressed"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CraftionsMC/craft-style.git"
   },
   "author": "The Craftions Developers",
+  "contributors": [
+    "Ben Siebert (mctzock)",
+    "Jonas (freshvlay)"
+  ],
   "license": "GPL-3.0-only",
   "bugs": {
     "url": "https://github.com/CraftionsMC/craft-style/issues"
   },
-  "homepage": "https://github.com/CraftionsMC/craft-style#readme"
+  "homepage": "https://github.com/CraftionsMC/craft-style#readme",
+  "devDependencies": {
+    "sass": "^1.43.3"
+  }
 }
