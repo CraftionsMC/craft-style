@@ -3,7 +3,7 @@
  * @copyright (c) 2018-2021 Ben Siebert. All rights reserved.
  */
 
-@use "../theme/default";
+@use "../theme/default" as *;
 
 @each $key, $value in $colors {
   .has-text-#{$key} {
