@@ -1,0 +1,24 @@
+/**
+ * @author The Craftions Developers <https://craftions.net>.
+ * @copyright (c) 2018-2021 Craftions. All rights reserved.
+ */
+
+$primary: #3573e9;
+
+$success: #0feb77;
+$warning: #d3850e;
+$danger: #d3230e;
+
+$link: #045fa5;
+$light: #FAFAFA;
+$dark: #313030;
+
+$colors: (
+        "primary": $primary,
+        "sucess": $success,
+        "warn": $warning,
+        "danger": $danger,
+        "link": $link,
+        "light": $light,
+        "dark": $dark
+)

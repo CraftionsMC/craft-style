@@ -1,0 +1,19 @@
+/**
+ * @author Ben Siebert <ben@mctzock.de>
+ * @copyright (c) 2018-2021 Ben Siebert. All rights reserved.
+ */
+
+@use "../theme/default";
+
+@each $key, $value in $colors {
+  .has-text-#{$key} {
+    color: $value;
+  }
+  .has-background-#{$key} {
+    background: $value;
+  }
+  .has-all-#{$key} {
+    @extend .has-text-#{$key};
+    @extend .has-background-#{$key};
+  }
+}
