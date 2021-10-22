@@ -1,0 +1,19 @@
+{
+  "name": "@craftions/craft-style",
+  "version": "1.0.0",
+  "description": "The Web Design Framework by craftions.net",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CraftionsMC/craft-style.git"
+  },
+  "author": "The Craftions Developers",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/CraftionsMC/craft-style/issues"
+  },
+  "homepage": "https://github.com/CraftionsMC/craft-style#readme"
+}
