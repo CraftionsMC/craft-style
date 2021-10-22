@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "The Web Design Framework by Craftions",
   "scripts": {
-    "sass:build": "sass src/scss/craftstyle.scss:build/css/craftstyle.min.css --style compressed"
+    "sass:build": "sass src/scss/craftstyle.scss:build/css/craftstyle.min.css --style compressed",
+    "sass:watch": "sass --watch src/scss/craftstyle.scss:build/css/craftstyle.min.css",
+    "live:test": "concurrently \"npx live-server --no-css-inject\" \"npm run sass:watch\""
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,8 @@
   },
   "homepage": "https://github.com/CraftionsMC/craft-style#readme",
   "devDependencies": {
+    "concurrently": "^6.3.0",
+    "live-server": "^1.2.1",
     "sass": "^1.43.3"
   }
 }
